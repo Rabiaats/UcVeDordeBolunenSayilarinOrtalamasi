@@ -11,6 +11,7 @@ public class BelirliSayilarinOrtalamasi {
         int totalNumber = 0;
         int average;
 
+        //pozitif sayi girildiginde bu donguye girer
         for (int p = 1; p <= number; p++) {
             if ((p % 3 == 0) && (p % 4 == 0)) {
                 total += p;
@@ -18,6 +19,7 @@ public class BelirliSayilarinOrtalamasi {
             }
         }
 
+        //negatif sayi girildiginde bu donguye girer
         for (int n = number; n < 0; n++){
             if ((n % 3 == 0) && (n % 4 == 0)){
                 total += n;
